@@ -33,5 +33,5 @@ _start:
 
 exit:
 	mov eax, SYS_EXIT	;syscall
-	mov ebx, 1		;Normal Exit
+	mov ebx, 0		;Normal Exit
 	int 80h			;Kernel Interrupt
